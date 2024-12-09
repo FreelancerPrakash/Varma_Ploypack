@@ -1,0 +1,35 @@
+/* / start contact pages / */
+.fables-contact-form {
+    margin-bottom: 25px;
+}
+#map {
+ width: 100%;
+ height: 420px;
+ }
+.fables-contact-social-links{
+    justify-content: center;
+}
+.fables-contact-block-border { 
+    min-height: 155px; 
+}
+.fables-rounded{
+    border-radius: 10px;
+}
+.fables-contact-icon { 
+    margin-top: -25px; 
+}
+/* .fables-contact-caption { 
+    background-image: url(../images/contact-caption-back.jpg); 
+} */
+.fables-rounded-btn:hover {
+    color: #fff;
+}
+
+.fables-single-gallery-pg{
+    font-size: 14px;
+    line-height: 18px;
+    padding: 11px 25px;
+}
+.fables-single-gallery-pg:hover{
+    color: #fff;
+}
