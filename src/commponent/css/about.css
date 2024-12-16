@@ -1,0 +1,14 @@
+.feature .feature-box,
+.feature .feature-box * {
+    transition: .5s;
+}
+
+.feature .feature-box:hover {
+    background: rgb(61, 61, 196);
+    border-color: var(--primary) !important;
+}
+
+.feature .feature-box:hover * {
+    color: #FFFFFF !important;
+}
+

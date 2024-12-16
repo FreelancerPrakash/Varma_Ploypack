@@ -1,9 +1,21 @@
 import React from 'react'
-// import "../css/Contact.css";
+import "../css/Contact.css";
 
 const Contact = () => {
     return (
         <>
+        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-4 animated slideInDown fw-bolder">Contact</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a href="/">Home</a></li>
+                    
+                    <li class="breadcrumb-item active" aria-current="page">Contact</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
             <div class="container">
                 <div class="row overflow-hidden">
                     <div class="col-12 col-md-10 offset-md-1 mt-5">

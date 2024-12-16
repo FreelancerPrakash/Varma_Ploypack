@@ -33,3 +33,32 @@
 .fables-single-gallery-pg:hover{
     color: #fff;
 }
+.page-header {
+    padding-top: 12rem;
+    padding-bottom: 6rem;
+    background: url(../images/header.jpg) top left no-repeat;
+    background-size: cover;
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-weight: 500;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--tertiary);
+}
+@keyframes slideInDown {
+    from {
+      transform: translate3d(0, -100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .slideInDown {
+    animation-name: slideInDown;
+  }
